@@ -11,3 +11,4 @@ writer = csv.writer(file)
 
 writer.writerow([name, phone, county, merger])
 
+file.close()
